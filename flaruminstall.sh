@@ -9,9 +9,9 @@
 #==============================================================================
 
 #Change below to what you'd like
-MY_DOMAIN_NAME=20.211.161.168/flarum
+MY_DOMAIN_NAME= flarum
 MY_EMAIL=mqodri588@gmail.com
-DB_NAME=flarum
+DB_NAME=flarum321
 DB_PSWD=flarum321
 
 SITES_AVAILABLE='/etc/apache2/sites-available/'
