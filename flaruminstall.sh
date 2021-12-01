@@ -9,8 +9,8 @@
 #==============================================================================
 
 #Change below to what you'd like
-MY_DOMAIN_NAME=cheesy.wtf
-MY_EMAIL=nginx@hotmail.com
+MY_DOMAIN_NAME=20.211.161.168/flarum
+MY_EMAIL=mqodri588@gmail.com
 DB_NAME=flarum
 DB_PSWD=flarum321
 
@@ -33,7 +33,7 @@ then
     sudo add-apt-repository --yes ppa:ondrej/php
     sudo apt-get update
     sudo apt-get -y install apache2 mariadb-server mariadb-client
-    sudo apt install -y php7.1 libapache2-mod-php7.1 php7.1-common php7.1-mbstring php7.1-xmlrpc php7.1-soap php7.1-gd php7.1-xml php7.1-intl php7.1-mysql php7.1-cli php7.1-mcrypt php7.1-zip php7.1-curl php7.1-dom composer openssl
+    sudo apt install -y php7.4 libapache2-mod-php7.4 php7.4-common php7.4-mbstring php7.4-xmlrpc php7.4-soap php7.4-gd php7.4-xml php7.4-intl php7.4-mysql php7.4-cli php7.4-mcrypt php7.4-zip php7.4-curl php7.4-dom composer openssl
 
     sudo mkdir -p /var/www/$MY_DOMAIN_NAME
     cd /var/www/$MY_DOMAIN_NAME
